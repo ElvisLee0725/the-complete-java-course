@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExampleProgram/ExampleProgram.iml" filepath="$PROJECT_DIR$/ExampleProgram/ExampleProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProcessingFiles/ProcessingFiles.iml" filepath="$PROJECT_DIR$/ProcessingFiles/ProcessingFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Udemy.iml" filepath="$PROJECT_DIR$/Udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/car_dealership/car_dealership.iml" filepath="$PROJECT_DIR$/car_dealership/car_dealership.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_basics/java_basics.iml" filepath="$PROJECT_DIR$/java_basics/java_basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice_loops/practice_loops.iml" filepath="$PROJECT_DIR$/practice_loops/practice_loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pre_OOP/pre_OOP.iml" filepath="$PROJECT_DIR$/pre_OOP/pre_OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pre_OOP2/pre_OOP2.iml" filepath="$PROJECT_DIR$/pre_OOP2/pre_OOP2.iml" />
+    </modules>
+  </component>
+</project>
