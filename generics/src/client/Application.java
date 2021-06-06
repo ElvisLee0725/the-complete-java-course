@@ -1,30 +1,39 @@
 package client;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class Application {
     public static void main(String[] args) {
-        Container<Integer, String> container = new Container<>(12, "Hello");
-        container.printContainer();
+        Employee emp = new Employee();
+        Accountant acc = new Accountant();
+        emp = acc;
 
-        Set<String> mySet1 = new HashSet<>();
-        mySet1.add("first");
-        mySet1.add("second");
-        mySet1.add("whatever");
+        ArrayList<Employee> employee1 = new ArrayList<>();
+        employee1.add(new Employee());
+        ArrayList<Accountant> accountant1 = new ArrayList<>();
+        accountant1.add(new Accountant());
+//        employee1 = accountant1;
 
-        Set<String> mySet2 = new HashSet<>();
-        mySet2.add("first");
-        mySet2.add("second");
-        mySet2.add("computer");
+        ArrayList<?> employee2 = new ArrayList<>();
+        ArrayList<Accountant> accountant2 = new ArrayList<>();
+        employee2 = accountant2;
 
-        Set<String> finalSet = union(mySet1, mySet2);
+        // Upper Bound
+        ArrayList<? extends Employee> employee3 = new ArrayList<>();
+        ArrayList<Accountant> accountant3 = new ArrayList<>();
+        employee3 = accountant3;
 
-        Iterator<String> itr = finalSet.iterator();
-        while(itr.hasNext()) {
-            String val = itr.next();
-            System.out.println(val);
+        // Lower Bound
+        ArrayList<? super Employee> employee4 = new ArrayList<>();
+        ArrayList<Employee> accountant4 = new ArrayList<>();
+        employee4 = accountant4;
+
+        makeEmploeeWork(accountant1);
+    }
+
+    public static void makeEmploeeWork(List<? extends Employee> employees) {
+        for(Employee emp : employees) {
+            emp.work();
         }
     }
 
