@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="058d7200-ae9e-4f19-99f3-58e76f8c3cdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/aggregators/Aggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/aggregators/Aggregator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/aggregators/MaxAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/aggregators/MaxAggregator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/aggregators/MeanAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/aggregators/MeanAggregator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/aggregators/MinAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/aggregators/MinAggregator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/client/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/client/StockFileApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client/StockFileApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/fileprocessors/StockFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/fileprocessors/StockFileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aggregators/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aggregators/Aggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aggregators/MaxAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aggregators/MaxAggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aggregators/MeanAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aggregators/MeanAggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aggregators/MinAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aggregators/MinAggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/StockFileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/StockFileApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileprocessors/StockFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileprocessors/StockFileReader.java" afterDir="false" />
-    </list>
+    <list default="true" id="058d7200-ae9e-4f19-99f3-58e76f8c3cdf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623125831398</updated>
-      <workItem from="1623125832547" duration="3623000" />
+      <workItem from="1623125832547" duration="3637000" />
     </task>
     <servers />
   </component>
