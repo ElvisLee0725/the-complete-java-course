@@ -29,14 +29,6 @@ public class StockFileApplication {
 	public static List<HashMap<String, Double>> populateStockFileData(List<String> headers, List<String> lines){
 		List<HashMap<String, Double>> dataResult = new ArrayList<>();
 		// Insert your code here..
-		for(String line : lines) {
-			String [] data = line.split(",");
-			HashMap<String, Double> map = new HashMap<>();
-			for(int i = 0; i < headers.size(); i++) {
-				map.put(headers.get(i), Double.valueOf(data[i]));
-			}
-			dataResult.add(map);
-		}
 		return dataResult;
 	}
 	
